@@ -1,12 +1,14 @@
 import React from "react";
 import AutoComplete from "./components/AutoComplete";
 import Pollwidget from "./components/Pollwidget";
+import CountDownTimer from "./components/CountDownTimer";
 
 const App = () => {
   return (
     <div className="w-full h-screen">
       {/* <AutoComplete /> */}
-      <Pollwidget />
+      {/* <Pollwidget /> */}
+      <CountDownTimer />
     </div>
   );
 };
