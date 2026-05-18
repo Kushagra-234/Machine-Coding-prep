@@ -3,6 +3,8 @@ import AutoComplete from "./components/AutoComplete";
 import Pollwidget from "./components/Pollwidget";
 import CountDownTimer from "./components/CountDownTimer";
 import FileExplorer from "./components/fileexplorer/FileExplorer";
+import Toast from "./components/ToastManagementSyatem/Toast";
+import ToastProvider from "./components/ToastManagementSyatem/ToastContext";
 
 const App = () => {
   return (
@@ -10,7 +12,10 @@ const App = () => {
       {/* <AutoComplete /> */}
       {/* <Pollwidget /> */}
       {/* <CountDownTimer /> */}
-      <FileExplorer />
+      {/* <FileExplorer /> */}
+      <ToastProvider>
+        <Toast />
+      </ToastProvider>
     </div>
   );
 };
