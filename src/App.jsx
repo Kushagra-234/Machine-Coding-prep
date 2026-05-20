@@ -5,6 +5,7 @@ import CountDownTimer from "./components/CountDownTimer";
 import FileExplorer from "./components/fileexplorer/FileExplorer";
 import Toast from "./components/ToastManagementSyatem/Toast";
 import ToastProvider from "./components/ToastManagementSyatem/ToastContext";
+import EMICalculator from "./components/EMICalculator";
 
 const App = () => {
   return (
@@ -13,9 +14,10 @@ const App = () => {
       {/* <Pollwidget /> */}
       {/* <CountDownTimer /> */}
       {/* <FileExplorer /> */}
-      <ToastProvider>
+      {/* <ToastProvider>
         <Toast />
-      </ToastProvider>
+      </ToastProvider> */}
+      <EMICalculator />
     </div>
   );
 };
